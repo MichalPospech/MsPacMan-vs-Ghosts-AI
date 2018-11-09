@@ -33,14 +33,14 @@ public final class NearestPillPacManVS extends PacManHijackController
 		int nearest=game.getTarget(current,targetsArray,true,G.DM.PATH);		
 		
 		//add the path that Ms Pac-Man is following
-//		GameView.addPoints(game,Color.GREEN,game.getPath(current,nearest));
+		GameView.addPoints(game,Color.GREEN,game.getPath(current,nearest));
 		
 		//add the path from Ms Pac-Man to the nearest existing power pill
-		int nearestPP = game.getTarget(current,activePowerPills,true,G.DM.PATH);
-		GameView.addPoints(game,Color.CYAN,game.getPath(current,nearestPP));
-		
-		int[] ghostDistances = new int[]{ game.getPathDistance(current, game.getCurGhostLoc(0)), game.getPathDistance(current, game.getCurGhostLoc(1)), game.getPathDistance(current, game.getCurGhostLoc(2)), game.getPathDistance(current, game.getCurGhostLoc(3))};
-		GameView.addText(0, 10, Color.YELLOW, "Ghost distances: " + ghostDistances[0] + ", " + ghostDistances[1] + ", " + ghostDistances[2] + ", " + ghostDistances[3]);
+//		int nearestPP = game.getTarget(current,activePowerPills,true,G.DM.PATH);
+//		GameView.addPoints(game,Color.CYAN,game.getPath(current,nearestPP));
+//		
+//		int[] ghostDistances = new int[]{ game.getPathDistance(current, game.getCurGhostLoc(0)), game.getPathDistance(current, game.getCurGhostLoc(1)), game.getPathDistance(current, game.getCurGhostLoc(2)), game.getPathDistance(current, game.getCurGhostLoc(3))};
+//		GameView.addText(0, 10, Color.YELLOW, "Ghost distances: " + ghostDistances[0] + ", " + ghostDistances[1] + ", " + ghostDistances[2] + ", " + ghostDistances[3]);
 		
 		//add the path AND ghost path from Ghost 0 to the first power pill (to illustrate the differences)
 //		if(game.getLairTime(0)==0)
@@ -58,12 +58,12 @@ public final class NearestPillPacManVS extends PacManHijackController
 //			GameView.addLines(game,Color.CYAN,current,powerPills[i]);
 		
 		//add lines to the ghosts (if not in lair) - green if edible, red otherwise
-		for(int i=0;i<G.NUM_GHOSTS;i++)										
-			if(game.getLairTime(i)==0)
-				if(game.isEdible(i))
-					GameView.addLines(game,Color.GREEN,current,game.getCurGhostLoc(i));
-				else
-					GameView.addLines(game,Color.RED,current,game.getCurGhostLoc(i));
+//		for(int i=0;i<G.NUM_GHOSTS;i++)										
+//			if(game.getLairTime(i)==0)
+//				if(game.isEdible(i))
+//					GameView.addLines(game,Color.GREEN,current,game.getCurGhostLoc(i));
+//				else
+//					GameView.addLines(game,Color.RED,current,game.getCurGhostLoc(i));
 		
 		//adds the paths the ghost would need to follow to reach Ms Pac-Man
 //		Color[] colors={Color.RED,Color.BLUE,Color.MAGENTA,Color.ORANGE};

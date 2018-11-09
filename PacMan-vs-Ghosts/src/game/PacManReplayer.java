@@ -166,7 +166,7 @@ public class PacManReplayer {
 		
 		ReplayerConfig config = new ReplayerConfig();
 		
-		config.replayFile = new File("./replay.log");
+		config.replayFile = new File("../PacMan-vs-Ghosts-Agents/replay.log");
 		
 		replayer.run(config);		
 	}

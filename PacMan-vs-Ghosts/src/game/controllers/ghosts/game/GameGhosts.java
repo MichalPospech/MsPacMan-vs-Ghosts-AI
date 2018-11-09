@@ -79,8 +79,8 @@ public class GameGhosts implements IGhostsController
 		
 		GhostCurrentAI = new GhostScatterState();
 		GhostPrevAI = new GhostScatterState();
-		stateChangeCurrentTime= System.currentTimeMillis();
-		stateChangeShiftTime = stateChangeCurrentTime + (7*1000);
+		stateChangeCurrentTime= game.getTotalTime();
+		stateChangeShiftTime = stateChangeCurrentTime + (7*25);
 		numberOfScatterOccured = 0;
 		numberOfChaseOccured = 0;
 		
@@ -107,12 +107,12 @@ public class GameGhosts implements IGhostsController
 		if(game.getLevelTime()<=10){
 			numberOfScatterOccured = 0;
 			numberOfChaseOccured = 0;
-			stateChangeShiftTime = System.currentTimeMillis();
+			stateChangeShiftTime = game.getTotalTime();
 		}
 		
 		int[] directions = new int[]{3, 3, 3, 3};
 		
-		long stateChangeTimer = stateChangeShiftTime - System.currentTimeMillis();
+		long stateChangeTimer = stateChangeShiftTime - game.getTotalTime();
 		if(stateChangeTimer<0 && numberOfScatterOccured<NUM_SCATTERS_PER_LEVEL){
 			int nextStateTimeinSec = 0;
 			if(currentGlobalState == SCATTER){
@@ -180,7 +180,7 @@ public class GameGhosts implements IGhostsController
 				}
 				numberOfChaseOccured++;
 			}
-			stateChangeShiftTime = System.currentTimeMillis() + (nextStateTimeinSec*1000);
+			stateChangeShiftTime = game.getTotalTime() + (nextStateTimeinSec*25);
 //			for(int i=0; i< directions.length; i++){
 //				directions[i]= game.getReverse(game.getCurGhostDir(i));
 //				System.out.println("Reverse Ghost" + i + " : " + directions[i] );

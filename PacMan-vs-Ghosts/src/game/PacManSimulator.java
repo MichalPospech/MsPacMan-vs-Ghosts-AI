@@ -47,6 +47,11 @@ public class PacManSimulator {
 		 */
 		public int levelsToPlay = -1;
 		
+		/**
+		 * How many lives to start with.
+		 */
+		public int lives = G.NUM_LIVES;
+		
 		public GameConfig clone() {
 			GameConfig result = new GameConfig();
 			
@@ -376,7 +381,7 @@ public class PacManSimulator {
 	 * @param ghosts
 	 * @return
 	 */
-	public static Game play(IPacManController pacMan, IGhostsController ghosts) {
+	public static Game play(IPacManController pacMan, IGhostsController ghosts, int seed, int lives, int thinkTime) {
 		SimulatorConfig config = new SimulatorConfig();
 		
 		config.pacManController = pacMan;
@@ -385,8 +390,18 @@ public class PacManSimulator {
 		config.replay = true;
 		config.replayFile = new File("./replay.log");
 		
+		config.game.seed = seed;
+	    config.game.lives = lives;
+		
+		if (thinkTime >= 0)
+		    config.thinkTimeMillis = thinkTime;
+		
 		return play(config);	
 	}
+	
+	public static Game play(IPacManController pacMan, IGhostsController ghosts) {
+		return play(pacMan, ghosts, 0, G.NUM_LIVES, -1);
+	}	
 	
 	/**
 	 * Run simulation visualized w/o ghosts.

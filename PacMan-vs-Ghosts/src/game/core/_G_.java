@@ -55,7 +55,7 @@ public class _G_ extends G
 		levelTime=0;
 		totalTime=0;
 		totLevel=0;
-		livesRemaining=G.NUM_LIVES;
+		livesRemaining=config.lives;
 		extraLife=false;
 		gameOver=false;
 		
