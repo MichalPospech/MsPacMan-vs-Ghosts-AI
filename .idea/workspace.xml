@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ca16af4-2bd1-406e-9335-188eb226ccc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsap_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/searches.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/PacMan-vs-Ghosts-Agents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/PacMan-vs-Ghosts-Tournament.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts/PacMan-vs-Ghosts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/EvaluateAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/EvaluateAgentConsole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/EvaluationInfos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/PacManConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/run/PacManResults.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/run/PacManRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/run/PacManRunResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/run/PacManRuns.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/run/PacManRunsGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts-Tournament/cz/cuni/mff/amis/pacman/tournament/utils/Sanitize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManReplayer$Hijack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManReplayer$ReplayerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManReplayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator$GameConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator$IThinkingMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator$ThinkingThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/PacManSimulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/SimulatorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/SimulatorConfigOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/Direction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/EntityAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/GhostAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/GhostType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/GhostsActions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/GhostsControllerBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/IGhostsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/game/GameGhostAI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/game/GameGhostChaseState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/game/GameGhostFrightenedState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/game/GameGhosts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/ghosts/game/GhostScatterState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/HumanPacMan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/IPacManController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/PacManAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/PacManControllerBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/PacManHijackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/modules/Maze$MazeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/modules/Maze$NodeCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/modules/Maze$NodeType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/controllers/pacman/modules/Maze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/G$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/G$Maze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/G$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/G.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/Game$DM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/GameView$DebugLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/GameView$DebugPointer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/GameView$DebugText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/GameView$GameFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/GameView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/Replay$ReplayGhosts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/Replay$ReplayMsPacman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/Replay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/_G_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/_RG_.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/data/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-down-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-down-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-left-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-right-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-up-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/blinky-up-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/edible-ghost-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/edible-ghost-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/edible-ghost-blink-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/edible-ghost-blink-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-down-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-down-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-left-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-right-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-up-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/inky-up-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/maze-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/maze-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/maze-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/maze-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-down-closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-down-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-down-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-left-closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-left-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-left-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-right-closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-right-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-right-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-up-closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-up-normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/mspacman-up-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-down-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-down-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-left-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-right-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-up-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/pinky-up-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-down-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-down-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-left-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-left-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-right-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-right-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-up-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/game/core/resources/images/sue-up-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PacMan-vs-Ghosts/tools/Scale2x.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/MyPacMan.runs.avgs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-0-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-1-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-10-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-11-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-12-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-13-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-14-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-15-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-16-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-17-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-18-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-19-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-2-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-20-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-21-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-22-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-23-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-24-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-25-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-26-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-27-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-28-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-29-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-3-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-4-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-5-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-6-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-7-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-8-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/replays/MyPacMan-Run-9-Iter-0.replay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/MyPacMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/MyPacMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/PacmanOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/PacmanOnly.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1737498022">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Game" value="1" />
+          <entry key="MF" value="1" />
+          <entry key="class" value="4" />
+          <entry key="da" value="1" />
+          <entry key="db" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="28" />
+          <entry key="kt" value="1" />
+          <entry key="md" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="Kotlin" value="1" />
+          <entry key="Manifest" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4458" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4458" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/MyPacMan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3985#3986#0" expanded="true" />
+                <element signature="e#4055#4056#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/_G_.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1955">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/G.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="904" column="77" lean-forward="true" selection-start-line="904" selection-start-column="77" selection-end-line="904" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#34124#0" expanded="true" />
+                <element signature="e#27464#27465#0" expanded="true" />
+                <element signature="e#27512#27513#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/EvaluateAgentConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="275" column="24" lean-forward="true" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/EvaluateAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/run/PacManRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/PacManSimulator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1059">
+              <caret line="139" column="26" lean-forward="true" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/run/PacManRunsGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Sys</find>
+      <find>distances</find>
+      <find>ghostpath</find>
+      <find>fea</find>
+      <find>getghost</find>
+      <find>ghostpathdi</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../NAIL025/evaTeaching" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/PacmanOnly.java" />
+        <option value="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/MyPacMan.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Agents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Agents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Agents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Agents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Tournament" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsPacMan-vs-Ghosts-AI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PacMan-vs-Ghosts-Tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tournament" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Eval">
+    <configuration name="Bot" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game.controllers.pacman.examples.MyPacMan" />
+      <module name="PacMan-vs-Ghosts-Agents" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eval" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cz.cuni.mff.amis.pacman.tournament.EvaluateAgentConsole" />
+      <module name="PacMan-vs-Ghosts-Tournament" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manual" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game.PacManSimulator" />
+      <module name="PacMan-vs-Ghosts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestPillPacMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.controllers.pacman.examples.NearestPillPacMan" />
+      <module name="PacMan-vs-Ghosts-Agents" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestPillPacManVS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.controllers.pacman.examples.NearestPillPacManVS" />
+      <module name="PacMan-vs-Ghosts-Agents" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replay" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game.PacManReplayer" />
+      <module name="PacMan-vs-Ghosts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Manual" />
+      <item itemvalue="Application.Bot" />
+      <item itemvalue="Application.Eval" />
+      <item itemvalue="Application.Replay" />
+      <item itemvalue="Application.NearestPillPacManVS" />
+      <item itemvalue="Application.NearestPillPacMan" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NearestPillPacMan" />
+        <item itemvalue="Application.NearestPillPacManVS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ca16af4-2bd1-406e-9335-188eb226ccc7" name="Default Changelist" comment="" />
+      <created>1540762103757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540762103757</updated>
+      <workItem from="1540762109867" duration="5534000" />
+      <workItem from="1541097017789" duration="156000" />
+      <workItem from="1541371295512" duration="1023000" />
+      <workItem from="1541372354903" duration="321000" />
+      <workItem from="1541372784392" duration="131000" />
+      <workItem from="1541373009097" duration="17099000" />
+      <workItem from="1541443499233" duration="2254000" />
+      <workItem from="1541688060944" duration="35517000" />
+      <workItem from="1541793208811" duration="24000" />
+      <workItem from="1541793847636" duration="7020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69079000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.26865673" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" visible="true" weight="0.26865673" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/NearestPillPacManVS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/strategies2018/strategies/PrrrStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/BalancingMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="38" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/PacMan-vs-Ghosts-Agents.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/abstraction/IHeuristicProblem.class" />
+    <entry file="jar://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/searches/algorithms/AStarSearch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/PacmanOnly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/controllers/pacman/PacManControllerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/controllers/pacman/PacManHijackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/game.core.Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>game.core.Game</OriginalElement>
+          <nodes>
+            <node x="" y="">game.core.Game</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="40.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/searches/algorithms/Search.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/NearestPillPacMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/EvaluateAgentConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="275" column="24" lean-forward="true" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/run/PacManRunsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/EvaluateAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Tournament/src/cz/cuni/mff/amis/pacman/tournament/run/PacManRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/PacManSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1059">
+          <caret line="139" column="26" lean-forward="true" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/resources/data/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/resources/data/db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/resources/data/da">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/_G_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts/src/game/core/G.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="904" column="77" lean-forward="true" selection-start-line="904" selection-start-column="77" selection-end-line="904" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#34124#0" expanded="true" />
+            <element signature="e#27464#27465#0" expanded="true" />
+            <element signature="e#27512#27513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/src/game/controllers/pacman/examples/MyPacMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3985#3986#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PacMan-vs-Ghosts-Tournament</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>searches</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="searches">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PacMan-vs-Ghosts-Agents/lib/searches.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
